@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+	body{
+	letter-spacing:0.02em;
+	font-family: 'Roboto', sans-serif;
+	color:#73777a;
+	}
+	h1,h2,h3,h4,h5,h6{
+	font-family: 'Sora', sans-serif;
+	color:#252525;	
+	}
+    .font-weight-medium{
+		font-weight:500;
+	}
+	.bg-light{
+	background-color:#f6f0f0 !important;	
+	}
+	p{
+	line-height:1.6em !important;	
+	}
+	.navbar-brand{
+	font-size:18px;
+	font-weight:500;
+	color:#73777a !important;
+	letter-spacing:1px;	
+	margin-top:4px;
+	}
+	a{
+	color:#fd7e47;
+	transition:all 0.3s ease;	
+	}
+	a:hover{
+	color:#f95f19;
+	text-decoration:none;	
+	}
+	.btn{
+	font-size:13px;	
+	font-weight:500;
+	text-transform:uppercase;
+	font-family: 'Sora', sans-serif;
+	padding:10px 20px;	
+	}
+	.btn-primary{
+	background-color:#fd7e47;
+	border-color:#f95f19;	
+	}
+	.btn-primary:hover{
+	background-color:#f95f19;
+	border-color:#f95f19;	
+	}
+	.btn-lg{
+	padding:14px 24px;	
+	}
+	.banner-bg {
+    background-image: url(../img/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:contain;
+    }
+	.dd{
+	background-color:#fff;	
+	cursor:pointer;
+	transition:all 0.3s ease;
+	}
+	.dd:hover{
+	background-color:#fd7e47;	
+	}
+	.dd i{
+	font-size:46px;
+	margin-bottom:20px;	
+	}
+	.dd:hover i{
+	color:#fff;	
+	}
+	.dd h5{
+
+	}
+	.dd:hover h5{
+	color:#fff;		
+	}
+	.gg img {
+     filter: grayscale(100%);
+	 opacity:50%;
+	 transition:all 0.3s ease;
+	 cursor:pointer;
+     }
+	 .gg img:hover {
+     filter: grayscale(0.01%);
+	 opacity:1;
+     }
+	 ul.ll{
+		margin:0;
+		padding:0;
+		list-style-type:none; 
+	 }
+	 ul.ll li{
+		 padding-top:12px;
+	 }
+	 ul.ll li a{
+		color:#73777a;
+		font-weight:500;
+	 }
+	  ul.ll li a:hover{
+		color:#fd7e47;
+	 }
+	 @media(max-width:1260px){
+		 .banner-bg {
+    background-size: cover;
+	background-position:center right -250px;
+    }
+	 }
+	  @media(max-width:960px){
+		 .banner-bg {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/banner-bg.jpg);
+   background-position:center right;
+    }
+	.banner-bg h2{
+	color:#fff;	
+	}
+	.banner-bg p{
+	color:rgba(255,255,255,0.8) !important;	
+	}
+	 }
+
