@@ -1,6 +1,4 @@
 <?php
-include 'session.php';
-  
 
 ?>
 <!DOCTYPE html>
@@ -16,7 +14,6 @@ include 'session.php';
 
     <!-- Main css -->
     <link rel="stylesheet" href="css/login.css">
-    
 </head>
 <body>
 
@@ -62,12 +59,7 @@ include 'session.php';
         </section>
 
     </div>
-    <footer class="class" >
-<div class="container">
-<div class="footer-copyright text-center py-3">&copy; Copyright by 18111146_RizkyRamadan_TIFRP18CIDA
-</div>
-</footer>
-		</div>
+
     <!-- JS -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="Bootsrap/js/bootstrap.min.js"></script>
